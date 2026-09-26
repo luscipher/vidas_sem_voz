@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #f2c6ac 0%, #f2c6ac 100%);
+    background: linear-gradient(135deg, #e9ceaf 0%, #e9ceaf 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -93,7 +93,7 @@ a {
     gap: 10px;
     border: none;
     border-radius: 25px;
-    background: #5a6347;
+    background: #46527a;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
@@ -113,10 +113,10 @@ a {
     font-size: 20px;
 }
 .copy-pix:hover {
-    background: #313d00;
+    background: #00063d;
     transform: scale(1.02);
     box-shadow:
-        0 10px 16px rgba(49, 61, 0, 0.439);
+        0 10px 16px rgba(0, 16, 61, 0.439);
 }
 .copy-pix:active {
     transform: scale(0.98);
@@ -133,7 +133,7 @@ a {
     gap: 10px;
     border: none;
     border-radius: 25px;
-    background: #f279bc;
+    background: #ff75c1;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -186,8 +186,8 @@ a {
     border: 2px solid #f279bc;
 }
 .wapp {
-    color: #313d00;
-    border: 2px solid #5a6347;
+    color: #04003d;
+    border: 2px solid #474963;
 }
 
 p {
