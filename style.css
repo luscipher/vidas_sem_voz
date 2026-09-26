@@ -1,0 +1,197 @@
+body {
+    background: linear-gradient(135deg, #f2c6ac 0%, #f2c6ac 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-container {
+    background: #f7f3ea;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 40px 30px;
+    max-width: 480px;
+    width: 100%;
+    box-shadow: 0 20px 60px #f2c6ac;
+    text-align
+: center;
+    position: relative;
+}
+    
+/*LOGO*/
+.profile-image {
+    margin-bottom: 50px;
+}
+.profile-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px #d667a459;
+}
+.profile-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    object-fit: contain;
+    background: transparent;
+    box-shadow: 0 8px 20px #2b1f5742;
+    transition: transform 0.3s ease;
+}
+
+/*BIO*/
+.bio {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #2b1f57;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+
+/* Chave CNPJ */
+.pix-key {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f3ea;
+    border: 2px solid #f2c6ac;
+    border-radius: 30px;
+    color: #2b1f57;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow:
+        0 3px 8px #2b1f572f;
+}
+.pix-key:hover {
+    transform: scale(1.02);
+    box-shadow:
+        0 10px 16px rgba(242, 198, 172, 0.439);
+}
+
+/* Botão copiar */
+.copy-pix {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #5a6347;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow:
+        0 3px 8px #2b1f575d;
+}
+.container {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+.copy-pix i {
+    font-size: 20px;
+}
+.copy-pix:hover {
+    background: #313d00;
+    transform: scale(1.02);
+    box-shadow:
+        0 10px 16px rgba(49, 61, 0, 0.439);
+}
+.copy-pix:active {
+    transform: scale(0.98);
+}
+
+
+/* Botão adote */
+.adote {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #f279bc;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow:
+        0 3px 8px #2b1f574b;
+}
+.adote:hover {
+    background: #e948a0;
+    transform: scale(1.02);
+    box-shadow:
+        0 10px 16px rgba(233, 72, 161, 0.439);
+}
+.adote i {
+    font-size: 20px;
+}
+
+
+/*SOCIAL*/
+.social-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.social {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    box-shadow: 0 4px 10px #2b1f574b;
+}
+.social:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 6px 15px #2b1f5725;
+}
+.instagram {
+    color: #f279bc;
+    border: 2px solid #f279bc;
+}
+.wapp {
+    color: #313d00;
+    border: 2px solid #5a6347;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #2b1f57;
+    margin-top: 20px;
+}
